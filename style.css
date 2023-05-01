@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Indie+Flower&family=Kanit:ital,wght@1,300&family=Krona+One&family=Montserrat:wght@200&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Sigmar&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.cabecalho{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+  background-color: #f1cd02;
+
+}
+
+.menu{
+  display: flex;
+  padding: 25px;
+  margin-left: 15%;
+  gap: 20px;
+}
+
+a{
+  font-size: 110%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.conteudo-principal{
+  width: 74%;
+  justify-content: space-between;
+  display: flex;
+  padding: 5% 13%;
+  align-items: center;
+
+
+}
+
+.conteudo__texto{
+  margin-top: 5%;
+  font-size: 120%;
+
+}
+
+.paragrafo__principal{
+  font-size: 200%;
+  padding: 20px;
+}
+
+.meme{
+  margin-left: 30%;
+}
+
+h1, p{
+  font-family:'Poppins', sans-seri;
+  color: crimson;
+  padding-bottom: 50px;
+}
+
+.conteudo__segundo{
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+  margin-left: 50px;
+}
+
+h2{
+  color: coral;
+  padding-bottom: 40px;
+  
+}
+
+
+.album__fotos{
+  display: inline-block;
+
+}
+
+.nossas__fotos{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+  
+}
+
+.rodape{
+  padding: 20px;
+  color: beige;
+  background-color: rgb(139, 103, 172);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
